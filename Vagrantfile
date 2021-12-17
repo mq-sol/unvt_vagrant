@@ -49,10 +49,10 @@ Vagrant.configure(2) do |config|
     ## pdal
     cd
     wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64.sh
-    bash Miniconda3-py38_4.10.3-Linux-x86_64.sh -b -p $HOME/miniconda3
-    $HOME/miniconda3/conda create --name pdalworkshop
-    $HOME/miniconda3/conda activate pdalworkshop
-    $HOME/miniconda3/conda install -c conda-forge pdal python-pdal gdal entwine matplotlib
+    bash Miniconda3-py38_4.10.3-Linux-x86_64.sh -b -p /home/vagrant/miniconda3
+    /home/vagrant/miniconda3/conda create --name pdalworkshop
+    /home/vagrant/miniconda3/conda activate pdalworkshop
+    /home/vagrant/miniconda3/conda install -c conda-forge pdal python-pdal gdal entwine matplotlib
 
     # 必要なものをGit から取得する
     git clone https://github.com/optgeo/kid-c
