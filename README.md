@@ -48,7 +48,7 @@ ssh vagrant@localhost:2222
 
 | 項目 | 値 |
 | -- | -- |
-! アカウント | vagrant |
+| アカウント | vagrant |
 | パスワード | vagrant |
 | ポート番号 | 2222 |
 | ホスト名 | localhost |
@@ -57,7 +57,7 @@ ssh vagrant@192.168.56.50
 
 | 項目 | 値 |
 | -- | -- |
-! アカウント | vagrant |
+| アカウント | vagrant |
 | パスワード | vagrant |
 | ポート番号 | 22 |
 | ホスト名 | 192.168.56.50 |
