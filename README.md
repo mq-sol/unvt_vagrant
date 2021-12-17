@@ -68,6 +68,8 @@ ssh vagrant@192.168.56.50
 
 ## Vagrantの使い方
 
+※ VMの起動・終了はVirtualboxアプリの操作で行わないでください。
+
 * Vagrantの起動(初めてVMを作成も含む)
 
 ```bash
