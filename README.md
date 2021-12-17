@@ -29,9 +29,6 @@ vagrant up
 
 VMの作成には時間がかかります。
 
-
-参考： [気をつけて！Git for Windowsにおける改行コード - Qiita](https://qiita.com/uggds/items/00a1974ec4f115616580)
-
 ### sshでログイン
 
 作成後、VMにSSHで接続してWordpressのセットアップのスクリプトを実行します。
